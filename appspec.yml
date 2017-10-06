@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: src
+    destination: /usr/share/nginx/html
+permissions:
+  - object: /usr/share/nginx/html
+    owner: nginx
+    group: nginx
