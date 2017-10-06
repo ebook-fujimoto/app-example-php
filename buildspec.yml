@@ -10,4 +10,5 @@ phases:
 artifacts:
   files:
     - src/index.php
+    - appspec.yml
   discard-paths: yes
